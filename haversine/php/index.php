@@ -8,7 +8,7 @@
      * @return bool return true if the coordinate value is valid, else otherwise.
      */
     function checkCoord(float $coord, string $pos): bool {
-        if ($pos !== 'longitude' && $pos !== 'latitude') return (false);
+        if (!in_array($pos, ['longitude', 'latitude'])) return (false);
         return (is_finite($coord) && (abs($coord) < ($pos === 'latitude' ? 90 : 180)));
     }
 
