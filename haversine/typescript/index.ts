@@ -16,7 +16,7 @@ const radians = (degree: number): number => {
 * Check if the coordinates points are valid
 * @param {number} coord The coordinate value
 * @param {'latitude' | 'longitude'} pos The axis to check, if it's the latitude or longitude point
-* @return {boolean}  return true if the coordinate value is valid, else otherwise
+* @return {boolean}  return true if the coordinate value is valid, false otherwise
 */
 const checkCoord = (coord: number, pos: 'latitude' | 'longitude'): boolean => {
     return (isFinite(coord) && (Math.abs(coord) < (pos == 'latitude' ? 90 : 180)));

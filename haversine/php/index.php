@@ -5,7 +5,7 @@
      * @param float $coord The coordinate value
      * @param string $pos The axis to check, if it's the latitude or longitude point (longitude | latitude).
      * 
-     * @return bool return true if the coordinate value is valid, else otherwise.
+     * @return bool return true if the coordinate value is valid, false otherwise.
      */
     function checkCoord(float $coord, string $pos): bool {
         if (!in_array($pos, ['longitude', 'latitude'])) return (false);
