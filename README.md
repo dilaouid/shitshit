@@ -21,4 +21,4 @@ Well, it's just some shitty cheatsheet. Multiple usefuls algorithms or functions
 **Algorithms:**
 
  - **[Haversine](https://github.com/dilaouid/shitshit/tree/main/haversine)**: formula to get the distance in meters between two positions points (**latitude** and **longitude**)
- - **Video Streaming**: Stop using weird video balise pointing to the video. Use the power of the stream instead, it's better and works JIT. So there's no need to download the whole video before starting playing it.
+ - **[Video Streaming](https://github.com/dilaouid/shitshit/tree/main/video%20streaming)**: Stop using weird video balise pointing to the video. Use the power of the stream instead, it's better and works JIT. So there's no need to download the whole video before starting playing it.
