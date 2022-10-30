@@ -1,7 +1,6 @@
 # Video Streaming Basic
-| |
-| :-: |
-| ![simpson chainsaw man](https://raw.githubusercontent.com/dilaouid/shitshit/main/readme/streaming.jpg)
+
+![simpson chainsaw man](https://raw.githubusercontent.com/dilaouid/shitshit/main/readme/streaming.jpg)
 
   
 Stop using weirds video source attributes in your website. Nobody wants to download your 150 MB video before playing it. We want it being **CHUNKY** BRO !|
