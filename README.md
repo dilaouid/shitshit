@@ -1,1 +1,24 @@
-# shitshit
+# ShitShit
+
+## What it's all about ?
+Well, it's just some shitty cheatsheet. Multiple usefuls algorithms or functions which will help you gain some time for your software/web developement. Each directory will teach you and/or show one of those great algorithm you may need for your shitty project.
+
+## Available algorithms:
+
+|Languages| Haversine | Video Streaming
+|--|--|--|
+|Typescript  | ✔️ |✔️
+|Javascript| ✔️ |❌
+|Go| ❌ |❌
+|PHP| ✔️ |❌
+|C| ✔️ |❌
+|C++| ❌ |❌
+|C#| ❌ |❌
+|Python| ✔️ | ❌
+|Next| ❌ | ✔️
+|Express| ❌ | ❌
+
+**Algorithms:**
+
+ - **[Haversine](https://github.com/dilaouid/shitshit/tree/main/haversine)**: formula to get the distance in meters between two positions points (**latitude** and **longitude**)
+ - **Video Streaming**: Stop using weird video balise pointing to the video. Use the power of the stream instead, it's better and works JIT. So there's no need to download the whole video before starting playing it.
