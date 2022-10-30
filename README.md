@@ -8,7 +8,7 @@ Well, it's just some shitty cheatsheet. Multiple usefuls algorithms or functions
 |Languages| Haversine | Video Streaming Basic
 |--|--|--|
 |Typescript  | ✔️ |✔️
-|Javascript| ✔️ |❌
+|Javascript| ✔️ |✔️
 |Go| ❌ |❌
 |PHP| ✔️ |❌
 |C| ✔️ |❌
