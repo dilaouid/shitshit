@@ -17,6 +17,10 @@ Well, it's just some shitty cheatsheet. Multiple usefuls algorithms or functions
 |Python| ✔️ | ❌
 |Next| ❌ | ✔️
 |Express| ❌ | ❌
+|Java| ❌ | ❌
+|Pearl| ❌ | ❌
+|Dart| ❌ | ❌
+|Ruby| ❌ | ❌
 
 **Algorithms:**
 
