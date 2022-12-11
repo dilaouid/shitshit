@@ -15,8 +15,8 @@ Well, it's just some shitty cheatsheet. Multiple usefuls algorithms or functions
 |C++| ❌ |❌
 |C#| ❌ |❌
 |Python| ✔️ | ❌
-|Next| ❌ | ✔️
-|Express| ❌ | ❌
+|Next| ☑️ | ✔️
+|Express| ☑️ | ✔️
 |Java| ❌ | ❌
 |Pearl| ❌ | ❌
 |Dart| ❌ | ❌

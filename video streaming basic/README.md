@@ -33,6 +33,7 @@ However, with this "boilerplate" like project, you'll be able to at least switch
 |Language| Streaming code path |
 |--|--|
 | Next | `pages/api/streaming.ts` |
+| Next | `app.ts` |
 
 Everything is documented so you may adjust it as you wish.
 
