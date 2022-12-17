@@ -1,0 +1,3 @@
+scoop bucket add extras
+scoop install mkcert
+mkcert localhost
