@@ -46,7 +46,7 @@ If you're planning to implement a file upload system in your platform, it's cruc
 	| e7092b88-bda0-49e1-a700-47c64942b5ef | d6485Jbfdlk8721c3x83x.png | image.png | 2023-10-10 | image/png |
 
 
-	- **Good:** `http://api.website.com/images/e7092b88-bda0-49e1-a700-47c64942b5ef`
+	- **Good:** `http://api.website.com/uploads/{user_id}/e7092b88-bda0-49e1-a700-47c64942b5ef`
 	- **Bad:**
 		- `http://api.website.com/images/d6485Jbfdlk8721c3x83x.png`
 		- `http://api.website.com/images/d6485Jbfdlk8721c3x83x`
