@@ -1,9 +1,10 @@
+
 # File upload security and good practices checklist
 
 If you're planning to implement a file upload system in your platform, it's crucial to ensure that the process is secure and won't expose your project to potential security exploits. Below is a comprehensive checklist to help you implement a minimally protected file upload feature:
 - **Check the uploaded file**:
 	- [ ] You must check if the file is valid before storing it server side :
-		- [ ] Check if the size is acceptable to avoid Denial of Service (DoS) attack
+		- [ ] Check if the size is acceptable to avoid [Denial of Service](https://www.paloaltonetworks.com/cyberpedia/what-is-a-denial-of-service-attack-dos) (DoS) attack
 		- [ ] Don't rely solely on the file extension, but also check the [mime type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) as well.
 			- [ ] Check if the [mime type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) is acceptable
 			- [ ] Avoid uploading php files (check the filename/mimetype turned to lowercase) to avoid [Remote Code Execution (RCE) exploits](https://www.checkpoint.com/cyber-hub/cyber-security/what-is-remote-code-execution-rce/). It also includes extensions like `php1`, `php2`, `php3`, `php4`, `php5`, `php6`, `phtml`....
