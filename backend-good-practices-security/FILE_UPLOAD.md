@@ -3,6 +3,8 @@
 
 If you're planning to implement a file upload system in your platform, it's crucial to ensure that the process is secure and won't expose your project to potential security exploits. Below is a comprehensive checklist to help you implement a minimally protected file upload feature:
 - **Check the uploaded file**:
+	- [ ] Check if the authentified user is allowed to upload a file
+ 	- [ ] Check if the authentified user uploading a file is not a bot (essentially by Recaptcha v3 methods or others)
 	- [ ] You must check if the file is valid before storing it server side :
 		- [ ] Check if the size is acceptable to avoid [Denial of Service](https://www.paloaltonetworks.com/cyberpedia/what-is-a-denial-of-service-attack-dos) (DoS) attack
 		- [ ] Don't rely solely on the file extension, but also check the [mime type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) as well.
