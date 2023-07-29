@@ -38,10 +38,12 @@ If you're planning to implement a file upload system in your platform, it's cruc
 - **File access:**
 	- [ ] According to the data in the database, only some users may be able to access a specific uploaded file. Make sure that the route that is returning your file have a good middleware and strong verifications.
 	- [ ] Avoid writing the path or the filename inside the route returning the file, but use a unique identifier from the database to fetch the file. For example:
+
 	
 	| id | filename | original_filename | uploaded_date | mime_type |
-	|--|--|--|--|--|--|
+	|--|--|--|--|--|
 	| e7092b88-bda0-49e1-a700-47c64942b5ef | d6485Jbfdlk8721c3x83x.png | image.png | 2023-10-10 | image/png |
+
 
 	- **Good:** `http://api.website.com/images/e7092b88-bda0-49e1-a700-47c64942b5ef`
 	- **Bad:**
