@@ -29,7 +29,6 @@ If you're planning to implement a file upload system in your platform, it's cruc
 		- original filename
 		- new filename
 		- uploaded date
-		- file size
 		- [mime type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types) (***only*** if the file is not encrypted)
 		- file size
 		- ... other informations necessary to make your platform functional
