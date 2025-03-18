@@ -1,4 +1,3 @@
-
 # File upload security and good practices checklist
 
 If you're planning to implement a file upload system in your platform, it's crucial to ensure that the process is secure and won't expose your project to potential security exploits. Below is a comprehensive checklist to help you implement a minimally protected file upload feature:
